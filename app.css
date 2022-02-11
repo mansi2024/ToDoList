@@ -54,11 +54,12 @@ body{
     margin-bottom:50px;
     text-decoration: line-through rgb(233, 23, 23);
     color:rgb(14, 173, 35);
-    font-size:35px;
+    font-size:30px;
     letter-spacing:7px;
     animation:lineSlide 2s 1s;
     
 }
+
 .pic{
     width:100%;
     height:80%;
@@ -194,7 +195,11 @@ select{
     background: white;
     color:rgb(241, 163, 18);
 }
-
+@media (min-width:1000px){
+    .btn{
+        display: none;
+    }
+}
 
 @media (max-width:1000px){
     .main{
@@ -202,11 +207,32 @@ select{
         
         flex-direction: column-reverse;
     }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top:70px;
+        margin-bottom:110px;
+        
+    }
+    .click{
+        font-size:18px;
+        padding:5px 16px;
+        
+        color:rgb(253, 253, 253);
+        background-color: rgb(248, 127, 79);
+        animation:tickering 2s infinite;
+    }
+    .Goto{
+        text-decoration: none;
+        color:rgb(253, 253, 253);
+    }
     .pic{
-        width:90%;
+        width:70%;
         align-items: inherit;
-        margin-left:30px;
-        height:400px;
+        margin-left:80px;
+        height:450px;
+        margin-top:90px;
+        margin-bottom:100px;
     }
     h2{
         color:green;
@@ -218,6 +244,9 @@ select{
    .todo-input{
        width:260px;
    }
+   body{
+    background: linear-gradient(150deg,rgb(242, 174, 245),rgb(137, 155, 238));
+}
     
     
     
@@ -229,8 +258,34 @@ select{
     select{
         width:9rem;
     }
-}
 
+    h2{
+        margin-top:10px;
+        font-family:'Redressed', cursive;
+        font-size:25px;
+    }
+    h1{
+        margin-top:40px;
+        font-size: 50px;
+    }
+    .pic{
+        width:85%;
+        height:97%;
+        transform:translateX(-60px);
+        margin-top:40px;
+    }
+   
+}
+@media(max-width:400px){
+    .todo-input{
+        width:40px;
+    }
+    select{
+        width:6rem;
+    }
+    
+  
+}
 @keyframes lineSlide {
     from{
        font-size:20px;
@@ -238,7 +293,7 @@ select{
        letter-spacing:10px;
     }
     to{
-        font-size: 35px;
+        font-size: 25px;
         transform:translateY(5px);
         color:rgb(9, 129, 19);
        
@@ -273,11 +328,16 @@ select{
         width:20%;
     }
 }
-@media(max-width:400px){
-    .todo-input{
-        width:100px;
+@keyframes tickering{
+    from{
+        background-color:rgb(236, 89, 89);
+        font-size:15px;
+        border:none;
     }
-    select{
-        width:7rem;
+    to{
+        background-color: red;
+        font-size:20px;
+        
+        border-color: rgb(255, 255, 254);
     }
 }

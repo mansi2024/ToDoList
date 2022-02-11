@@ -170,7 +170,7 @@ select{
 }
 .select::after{
     content:"\25BC";
-    position:relative;
+    position:absolute;
     background: rgb(238, 164, 6);
     right:0;
     padding:0.3rem;

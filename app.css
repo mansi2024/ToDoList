@@ -173,7 +173,7 @@ select{
     position:relative;
     background: rgb(238, 164, 6);
     right:0;
-    padding:0.5rem;
+    padding:0.3rem;
     pointer-events:none;
     transition:all 0.3s ease;
 }

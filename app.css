@@ -230,6 +230,14 @@ select{
         width:9rem;
     }
 }
+@media(max-width:400px){
+    .todo-input{
+        width:130px;
+    }
+    select{
+        width:7rem;
+    }
+}
 @media(max-width:250px){
     .todo-input{
         width:80px;

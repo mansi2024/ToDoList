@@ -230,22 +230,7 @@ select{
         width:9rem;
     }
 }
-@media(max-width:400px){
-    .todo-input{
-        width:100px;
-    }
-    select{
-        width:7rem;
-    }
-}
-@media(max-width:250px){
-    .todo-input{
-        width:80px;
-    }
-    select{
-        width:4rem;
-    }
-}
+
 @keyframes lineSlide {
     from{
        font-size:20px;
@@ -286,5 +271,13 @@ select{
     }
     to{
         width:20%;
+    }
+}
+@media(max-width:400px){
+    .todo-input{
+        width:100px;
+    }
+    select{
+        width:7rem;
     }
 }

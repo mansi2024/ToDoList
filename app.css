@@ -28,7 +28,6 @@ body{
     display: grid;
     z-index: 2;
 }
-
 .work{
     
     margin-top: 120px;
@@ -248,9 +247,6 @@ select{
    body{
     background: linear-gradient(150deg,rgb(242, 174, 245),rgb(137, 155, 238));
 }
-    
-    
-    
 }
 @media(max-width:700px){
     .todo-input{
@@ -342,4 +338,3 @@ select{
         border-color: rgb(255, 255, 254);
     }
 }
-   

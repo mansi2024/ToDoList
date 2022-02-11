@@ -230,7 +230,7 @@ select{
         width:9rem;
     }
 }
-@media(max-width:400px){
+@media(max-width:500px){
     .todo-input{
         width:130px;
     }

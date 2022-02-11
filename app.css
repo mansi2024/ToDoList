@@ -275,7 +275,7 @@ h1{
 }
 @media(max-width:400px){
 .todo-input{
-        width:80px;
+        width:100px;
     }
 select{
         width:6rem;

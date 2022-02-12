@@ -71,7 +71,7 @@ body{
     height:25%;
     width:30%;
     opacity:0.8;
-    animation:effect 2s ease;
+    animation:effect 2s 2 ease;
 }
 form input,
 form button{
@@ -105,7 +105,7 @@ form button:hover{
     transform: rotate(2390deg);
     opacity:0.4;
     z-index:1;
-    animation:effect 2s ease;
+    animation:effect 2s 2 ease;
 }
 .balls2{
     position: absolute;
@@ -114,7 +114,7 @@ form button:hover{
     left:10px;
     opacity:0.5;
     z-index:2;
-    animation:effect 2s ease;
+    animation:effect 2s 2 ease;
     z-index:1;
 }
 .todo-container{
